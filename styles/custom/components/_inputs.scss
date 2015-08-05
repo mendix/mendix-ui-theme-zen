@@ -1,0 +1,46 @@
+/*
+* Mendix Documentation
+* Special styles for presenting components
+*/
+
+
+/*
+* Inputs
+*
+* Default input fields
+*/
+.form-control {
+	line-height: $input-line-height;
+}
+textarea.form-control {
+	
+}
+.form-control:focus {
+	box-shadow: 0 0 3px #78A300;
+}
+/* Not editable textarea, textarea will be rendered as a label */
+.mx-textarea label {
+	
+}
+
+/* Input and textarea get properly aligned */
+.form-group div[class*='textBox'] > label,
+.form-group div[class*='textArea'] > label {
+	
+}
+
+
+/*
+* Inputs Readonly
+*
+* Default input fields
+*/
+.readonly-input {
+
+	label { 
+		
+	}
+}
+.readonly-input-alert label {
+	
+}

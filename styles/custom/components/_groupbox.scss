@@ -1,0 +1,100 @@
+/*
+* Mendix Documentation
+* Special styles for presenting components
+*/
+
+
+/*
+* Groupbox
+*
+* Default Mendix Groupboxes
+*/
+.mx-groupbox {
+	> .mx-groupbox-header {
+		@include border-radius(4px 4px 0 0);
+		background-color: #FFF;
+		font-size: 12px;
+		border-bottom: 1px solid $color-groupbox-default;
+		.mx-groupbox-collapse-icon {
+
+		}
+	}
+	> .mx-groupbox-body {
+		@include border-radius(0 0 4px 4px);
+  	}
+  	.mx-groupbox-header + .mx-groupbox-body {
+
+	}
+
+	&.collapsed > .mx-groupbox-header {
+		
+	}
+}
+
+
+/*
+* Groupbox Headers
+*
+* Alternate header sizes for groupbox
+*/
+.mx-groupbox {	
+	&.groupbox-h1 > .mx-groupbox-header {  } 
+	&.groupbox-h2 > .mx-groupbox-header {  }
+	&.groupbox-h3 > .mx-groupbox-header {  }
+	&.groupbox-h4 > .mx-groupbox-header {  }
+	&.groupbox-h5 > .mx-groupbox-header {  }
+	&.groupbox-h6 > .mx-groupbox-header {  }
+}
+
+/*
+* Groupbox Callouts
+*
+* Default Mendix Groupboxes rendered as (Bootstrap) callouts
+*/
+.mx-groupbox {	
+	&.groupbox-callout {
+		> .mx-groupbox-header, 
+		> .mx-groupbox-body {
+
+	  	}
+	  	.mx-groupbox-header + .mx-groupbox-body {
+
+	  	}
+	}
+	&.groupbox-callout-info {
+		> .mx-groupbox-header, 
+		> .mx-groupbox-body {
+
+		}
+		> .mx-groupbox-header {
+
+		}
+	}
+	&.groupbox-callout-success {
+		> .mx-groupbox-header, 
+		> .mx-groupbox-body {
+
+		}
+		> .mx-groupbox-header {
+
+		}
+	}
+	&.groupbox-callout-warning {
+		> .mx-groupbox-header, 
+		> .mx-groupbox-body {
+			
+		}
+		> .mx-groupbox-header {
+			
+		}
+	}
+	&.groupbox-callout-danger {
+		> .mx-groupbox-header, 
+		> .mx-groupbox-body {
+
+		}
+		> .mx-groupbox-header {
+			
+		}
+	}
+}
