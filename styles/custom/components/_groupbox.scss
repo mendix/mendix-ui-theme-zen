@@ -11,7 +11,7 @@
 */
 .mx-groupbox {
 	> .mx-groupbox-header {
-		@include border-radius(4px 4px 0 0);
+		border-radius: 4px 4px 0 0;
 		background-color: #FFF;
 		font-size: 12px;
 		border-bottom: 1px solid $color-groupbox-default;
@@ -20,7 +20,7 @@
 		}
 	}
 	> .mx-groupbox-body {
-		@include border-radius(0 0 4px 4px);
+		border-radius: 0 0 4px 4px;
   	}
   	.mx-groupbox-header + .mx-groupbox-body {
 
