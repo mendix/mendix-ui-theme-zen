@@ -3,7 +3,7 @@
 
    Default settings
 ========================================================================== */
-/* line 27, base/_base.scss */
+/* line 27, /Users/erikheddema/Mendix Projects/MendixUX-app-template/theme/themes/mendix-ui-theme-zen/styles/custom/base/_base.scss */
 .mx-dateinput-select-button {
   padding: 4px 10px 5px 10px;
 }
@@ -23,7 +23,7 @@
 
    Default Mendix Datagrid Widget. The datagrid shows a list of objects in a grid
 ========================================================================== */
-/* line 16, components/_datagrids.scss */
+/* line 16, /Users/erikheddema/Mendix Projects/MendixUX-app-template/theme/themes/mendix-ui-theme-zen/styles/custom/components/_datagrids.scss */
 .mx-datagrid .mx-datagrid-head-table .mx-datagrid-head-wrapper .mx-datagrid-head-caption {
   font-size: 11px;
 }
@@ -73,14 +73,14 @@
 
    Default Mendix Groupboxes
 ========================================================================== */
-/* line 7, components/_groupbox.scss */
+/* line 7, /Users/erikheddema/Mendix Projects/MendixUX-app-template/theme/themes/mendix-ui-theme-zen/styles/custom/components/_groupbox.scss */
 .mx-groupbox > .mx-groupbox-header {
   border-radius: 4px 4px 0 0;
   background-color: #FFF;
   font-size: 12px;
   border-bottom: 1px solid #dddddd;
 }
-/* line 16, components/_groupbox.scss */
+/* line 16, /Users/erikheddema/Mendix Projects/MendixUX-app-template/theme/themes/mendix-ui-theme-zen/styles/custom/components/_groupbox.scss */
 .mx-groupbox > .mx-groupbox-body {
   border-radius: 0 0 4px 4px;
 }
@@ -93,12 +93,12 @@
 /* ==========================================================================
    Inputs
 ========================================================================== */
-/* line 4, components/_inputs.scss */
+/* line 4, /Users/erikheddema/Mendix Projects/MendixUX-app-template/theme/themes/mendix-ui-theme-zen/styles/custom/components/_inputs.scss */
 .form-control {
   line-height: 1.1;
 }
 
-/* line 10, components/_inputs.scss */
+/* line 10, /Users/erikheddema/Mendix Projects/MendixUX-app-template/theme/themes/mendix-ui-theme-zen/styles/custom/components/_inputs.scss */
 .form-control:focus {
   box-shadow: 0 0 3px #78A300;
 }
@@ -150,13 +150,13 @@
 
    Default Mendix Navigation Tree
 ========================================================================== */
-/* line 94, components/_navigation.scss */
+/* line 94, /Users/erikheddema/Mendix Projects/MendixUX-app-template/theme/themes/mendix-ui-theme-zen/styles/custom/components/_navigation.scss */
 .mx-navigationtree .navbar-inner ul li a {
   border-style: none;
   -webkit-transform: scale(1);
   transform: scale(1);
 }
-/* line 109, components/_navigation.scss */
+/* line 109, /Users/erikheddema/Mendix Projects/MendixUX-app-template/theme/themes/mendix-ui-theme-zen/styles/custom/components/_navigation.scss */
 .mx-navigationtree .navbar-inner ul li a:hover,
 .mx-navigationtree .navbar-inner ul li a:focus,
 .mx-navigationtree .navbar-inner ul li a.active {
@@ -170,7 +170,7 @@
 
    Default Mendix Simple Menu Bar
 ========================================================================== */
-/* line 152, components/_navigation.scss */
+/* line 152, /Users/erikheddema/Mendix Projects/MendixUX-app-template/theme/themes/mendix-ui-theme-zen/styles/custom/components/_navigation.scss */
 .mx-menubar {
   border-top: 1px solid #cccccc;
   /* Two menu items */
@@ -328,7 +328,7 @@
 
    Used for navigation layouts
 ========================================================================== */
-/* line 11, layouts/_base.scss */
+/* line 11, /Users/erikheddema/Mendix Projects/MendixUX-app-template/theme/themes/mendix-ui-theme-zen/styles/custom/layouts/_base.scss */
 .region-topbar .toggle-btn {
   font-size: 14px;
   padding: 5px 10px;
@@ -336,46 +336,46 @@
   color: #FFF;
   border-color: #FFF;
 }
-/* line 21, layouts/_base.scss */
+/* line 21, /Users/erikheddema/Mendix Projects/MendixUX-app-template/theme/themes/mendix-ui-theme-zen/styles/custom/layouts/_base.scss */
 .region-topbar .toggle-btn:focus, .region-topbar .toggle-btn:hover, .region-topbar .toggle-btn:active, .region-topbar .toggle-btn.active {
   background-color: #486100;
 }
-/* line 29, layouts/_base.scss */
+/* line 29, /Users/erikheddema/Mendix Projects/MendixUX-app-template/theme/themes/mendix-ui-theme-zen/styles/custom/layouts/_base.scss */
 .region-topbar .navbar-right .mx-appswitcher-button-placeholder,
 .region-topbar .navbar-right .mx-profilemenu-button-placeholder {
   border-left: none;
 }
-/* line 31, layouts/_base.scss */
+/* line 31, /Users/erikheddema/Mendix Projects/MendixUX-app-template/theme/themes/mendix-ui-theme-zen/styles/custom/layouts/_base.scss */
 .region-topbar .navbar-right .mx-appswitcher-button-placeholder iframe,
 .region-topbar .navbar-right .mx-profilemenu-button-placeholder iframe {
   width: 28px !important;
   height: 28px !important;
 }
 
-/* line 55, layouts/_base.scss */
+/* line 55, /Users/erikheddema/Mendix Projects/MendixUX-app-template/theme/themes/mendix-ui-theme-zen/styles/custom/layouts/_base.scss */
 .layout-sidebar-responsive .mx-layoutgrid .region-sidebar-fixed {
   width: 230px !important;
 }
-/* line 58, layouts/_base.scss */
+/* line 58, /Users/erikheddema/Mendix Projects/MendixUX-app-template/theme/themes/mendix-ui-theme-zen/styles/custom/layouts/_base.scss */
 .layout-sidebar-responsive .mx-layoutgrid .region-content {
   width: calc(100% - 230px) !important;
   margin-left: 230px !important;
 }
 @media (max-width: 768px) {
-  /* line 58, layouts/_base.scss */
+  /* line 58, /Users/erikheddema/Mendix Projects/MendixUX-app-template/theme/themes/mendix-ui-theme-zen/styles/custom/layouts/_base.scss */
   .layout-sidebar-responsive .mx-layoutgrid .region-content {
     margin: 0 !important;
     width: 100% !important;
   }
 }
 
-/* line 70, layouts/_base.scss */
+/* line 70, /Users/erikheddema/Mendix Projects/MendixUX-app-template/theme/themes/mendix-ui-theme-zen/styles/custom/layouts/_base.scss */
 .region-sidebar,
 .layout-sidebar-responsive .region-sidebar-fixed {
   border-right: 1px solid #cccccc;
 }
 
-/* line 74, layouts/_base.scss */
+/* line 74, /Users/erikheddema/Mendix Projects/MendixUX-app-template/theme/themes/mendix-ui-theme-zen/styles/custom/layouts/_base.scss */
 .profile-phone .region-sidebar,
 .profile-phone .layout-sidebar-responsive .region-sidebar-fixed {
   border-left: 1px solid #cccccc;
@@ -386,12 +386,12 @@
 
    Used to style your app brand and logo
 ========================================================================== */
-/* line 84, layouts/_base.scss */
+/* line 84, /Users/erikheddema/Mendix Projects/MendixUX-app-template/theme/themes/mendix-ui-theme-zen/styles/custom/layouts/_base.scss */
 .navbar-brand {
   min-height: 44px;
   padding: 7px 0;
 }
-/* line 90, layouts/_base.scss */
+/* line 90, /Users/erikheddema/Mendix Projects/MendixUX-app-template/theme/themes/mendix-ui-theme-zen/styles/custom/layouts/_base.scss */
 .navbar-brand a {
   font-size: 14px;
   color: #FFF;
@@ -405,12 +405,12 @@
 /* ==========================================================================
    Listview for phone and tablet
 ========================================================================== */
-/* line 5, mobile/components/_listview.scss */
+/* line 5, /Users/erikheddema/Mendix Projects/MendixUX-app-template/theme/themes/mendix-ui-theme-zen/styles/custom/mobile/components/_listview.scss */
 .profile-phone,
 .profile-tablet {
   /* Listview Load More button */
 }
-/* line 7, mobile/components/_listview.scss */
+/* line 7, /Users/erikheddema/Mendix Projects/MendixUX-app-template/theme/themes/mendix-ui-theme-zen/styles/custom/mobile/components/_listview.scss */
 .profile-phone .mx-listview .mx-listview-searchbar,
 .profile-tablet .mx-listview .mx-listview-searchbar {
   /* Reset Search Button - default hidden */
@@ -430,21 +430,21 @@
 /* ==========================================================================
    Special styles for presenting Page Template Dashboard
 ========================================================================== */
-/* line 4, pagetemplates/responsive/_page-dashboard.scss */
+/* line 4, /Users/erikheddema/Mendix Projects/MendixUX-app-template/theme/themes/mendix-ui-theme-zen/styles/custom/pagetemplates/responsive/_page-dashboard.scss */
 .page-dashboard {
   background-color: #f8f8f8;
 }
-/* line 6, pagetemplates/responsive/_page-dashboard.scss */
+/* line 6, /Users/erikheddema/Mendix Projects/MendixUX-app-template/theme/themes/mendix-ui-theme-zen/styles/custom/pagetemplates/responsive/_page-dashboard.scss */
 .page-dashboard .chartjs-node {
   margin-top: 30px;
 }
 
-/* line 11, pagetemplates/responsive/_page-dashboard.scss */
+/* line 11, /Users/erikheddema/Mendix Projects/MendixUX-app-template/theme/themes/mendix-ui-theme-zen/styles/custom/pagetemplates/responsive/_page-dashboard.scss */
 .page-dashboard-default .card {
   min-height: 345px;
 }
 
-/* line 16, pagetemplates/responsive/_page-dashboard.scss */
+/* line 16, /Users/erikheddema/Mendix Projects/MendixUX-app-template/theme/themes/mendix-ui-theme-zen/styles/custom/pagetemplates/responsive/_page-dashboard.scss */
 .page-dashboard-mytasks .card {
   min-height: 320px;
 }
@@ -455,12 +455,12 @@
 /* ==========================================================================
    Special styles for presenting Page Template Master Detail
 ========================================================================== */
-/* line 17, pagetemplates/responsive/_page-masterdetail.scss */
+/* line 17, /Users/erikheddema/Mendix Projects/MendixUX-app-template/theme/themes/mendix-ui-theme-zen/styles/custom/pagetemplates/responsive/_page-masterdetail.scss */
 .page-masterdetail-multilevel .pageheader {
   margin-bottom: 10px;
   padding-bottom: 10px;
 }
-/* line 21, pagetemplates/responsive/_page-masterdetail.scss */
+/* line 21, /Users/erikheddema/Mendix Projects/MendixUX-app-template/theme/themes/mendix-ui-theme-zen/styles/custom/pagetemplates/responsive/_page-masterdetail.scss */
 .page-masterdetail-multilevel .control-label {
   color: #222222;
 }
@@ -468,16 +468,16 @@
 /* ==========================================================================
    Special styles for presenting Page Template Tabs
 ========================================================================== */
-/* line 5, pagetemplates/responsive/_page-tabs.scss */
+/* line 5, /Users/erikheddema/Mendix Projects/MendixUX-app-template/theme/themes/mendix-ui-theme-zen/styles/custom/pagetemplates/responsive/_page-tabs.scss */
 .page-tabs .section.pageheader {
   padding-bottom: 20px;
 }
-/* line 8, pagetemplates/responsive/_page-tabs.scss */
+/* line 8, /Users/erikheddema/Mendix Projects/MendixUX-app-template/theme/themes/mendix-ui-theme-zen/styles/custom/pagetemplates/responsive/_page-tabs.scss */
 .page-tabs .tabsfullwidth {
   background-color: #f8f8f8;
 }
 
-/* line 16, pagetemplates/responsive/_page-tabs.scss */
+/* line 16, /Users/erikheddema/Mendix Projects/MendixUX-app-template/theme/themes/mendix-ui-theme-zen/styles/custom/pagetemplates/responsive/_page-tabs.scss */
 .page-tabs-fullwidth .pageheader.pageheader-fullwidth {
   border-style: none;
 }
@@ -491,7 +491,7 @@
 /* ==========================================================================
    Special styles for presenting Page Template Phone
 ========================================================================== */
-/* line 4, pagetemplates/phone/_phone-page-dashboard.scss */
+/* line 4, /Users/erikheddema/Mendix Projects/MendixUX-app-template/theme/themes/mendix-ui-theme-zen/styles/custom/pagetemplates/phone/_phone-page-dashboard.scss */
 .phone-page-dashboard {
   background-color: #f8f8f8;
 }
@@ -508,7 +508,7 @@
 /* ==========================================================================
    Special styles for presenting Page Template Tablet Dashboard
 ========================================================================== */
-/* line 4, pagetemplates/tablet/_tablet-page-dashboard.scss */
+/* line 4, /Users/erikheddema/Mendix Projects/MendixUX-app-template/theme/themes/mendix-ui-theme-zen/styles/custom/pagetemplates/tablet/_tablet-page-dashboard.scss */
 .tablet-page-dashboard {
   background-color: #f8f8f8;
 }
@@ -544,7 +544,7 @@
 
    Used in default forms
 ========================================================================== */
-/* line 9, buildingblocks/_formblock.scss */
+/* line 9, /Users/erikheddema/Mendix Projects/MendixUX-app-template/theme/themes/mendix-ui-theme-zen/styles/custom/buildingblocks/_formblock.scss */
 .formblock-header {
   color: #333333;
 }
@@ -552,11 +552,11 @@
 /* ==========================================================================
    Master Detail Listview
 ========================================================================== */
-/* line 2, buildingblocks/_multilevel.scss */
+/* line 2, /Users/erikheddema/Mendix Projects/MendixUX-app-template/theme/themes/mendix-ui-theme-zen/styles/custom/buildingblocks/_multilevel.scss */
 .multilevel-list .mx-listview-item {
   cursor: pointer;
 }
-/* line 4, buildingblocks/_multilevel.scss */
+/* line 4, /Users/erikheddema/Mendix Projects/MendixUX-app-template/theme/themes/mendix-ui-theme-zen/styles/custom/buildingblocks/_multilevel.scss */
 .multilevel-list .mx-listview-item label {
   cursor: pointer;
 }
@@ -583,15 +583,9 @@
 
    Arrange spacing
 ========================================================================== */
-/*
-* Mendix Documentation
-* Special styles for presenting profilecard building block
-*/
-/*
-* Sidebar Header
-*
-* 
-*/
+/* ==========================================================================
+   Sidebar Header
+========================================================================== */
 /* ==========================================================================
    Tabs full width
 ========================================================================== */
@@ -600,7 +594,7 @@
 
    Styling for Wizard (Steps/Numbers)
 ========================================================================== */
-/* line 6, buildingblocks/_wizard.scss */
+/* line 6, /Users/erikheddema/Mendix Projects/MendixUX-app-template/theme/themes/mendix-ui-theme-zen/styles/custom/buildingblocks/_wizard.scss */
 .wizard {
   /* Wizard line between steps */
 }
