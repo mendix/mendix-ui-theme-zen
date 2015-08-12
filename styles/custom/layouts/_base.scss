@@ -1,9 +1,8 @@
-/*
-* Regions
-*
-* Used for navigation layouts
-*/
+/* ==========================================================================
+   Regions
 
+   Used for navigation layouts
+========================================================================== */
 .region-topbar {
 
 	> .mx-layoutcontainer-wrapper {
@@ -76,12 +75,12 @@
 	border-left: 1px solid $color-navsidebar-border;
 }
 
-/*
-* Navbar Brand
-*
-* Used to style your app brand and logo
-*/
 
+/* ==========================================================================
+   Navbar Brand
+
+   Used to style your app brand and logo
+========================================================================== */
 .navbar-brand {
 	min-height: 44px;
 	padding: 7px 0;
