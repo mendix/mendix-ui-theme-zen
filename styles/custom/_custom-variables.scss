@@ -89,29 +89,29 @@ $default-spacing-left:					30px;
 
 
 
-// //== Typography
-// //
-// //## Font, line-height, and color for body text, headings, and more.
+//== Typography
+//
+//## Font, line-height, and color for body text, headings, and more.
 
-// // Font Family					
+// Font Family					
 $font-family-base:						"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Verdana,Tahoma,sans-serif;
 // $font-family-light:						false;//"Helvetica Neue", Helvetica, Arial, sans-serif;
 // $font-family-semibold:					false;//"Helvetica Neue", Helvetica, Arial, sans-serif;
 // $font-family-bold:						false;//"Helvetica Neue", Helvetica, Arial, sans-serif;
 
-// // Font Weight
-// $font-weight-light:						100;
+// Font Weight
+// $font-weight-light:					100;
 // $font-weight-normal:					normal; 		
-// $font-weight-semibold:					500;
-// $font-weight-bold:						bold; 
+// $font-weight-semibold:				500;
+// $font-weight-bold:					bold; 
 
-// $font-weight-headers:					$font-weight-normal;
+// $font-weight-headers:				$font-weight-normal;
 
-// // Font Size
+// Font Size
 // $font-size-large:       				ceil($font-size-base * 1.25); // ~18px
-// $font-size-small:        				ceil($font-size-base * 0.85); // ~12px
+// $font-size-small:        			ceil($font-size-base * 0.85); // ~12px
 
-// // Font Size Header
+// Font Size Header
 // $font-size-h1:          				31px;
 // $font-size-h2:          				26px;
 // $font-size-h3:          				20px;
@@ -119,58 +119,58 @@ $font-family-base:						"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Verd
 // $font-size-h5:          				$font-size-base;
 // $font-size-h6:          				11px;
 
-// // Line Height
+// Line Height
 // $line-height-base:      				1.428571429;
 
 
 
-// //== Color variations
-// //
-// //## 
-// // Text Colors
-// $color-text-black-secondary:            lighten($color-text-black, 40%);
-// $color-text-black-disabled:				rgba($color-text-black, .26);
-// $color-text-black-hint:                 rgba($color-text-black, .26);
+//== Color variations
+//
+//## 
+// Text Colors
+$color-text-black-secondary:            lighten($color-text-black, 40%);
+$color-text-black-disabled:				rgba($color-text-black, .26);
+$color-text-black-hint:                 rgba($color-text-black, .26);
 
-// $color-text-white-secondary:            rgba($color-text-white, .7);
-// $color-text-white-disabled:             rgba($color-text-white,	.3);
-// $color-text-white-hint:                 rgba($color-text-white,	.3);
+$color-text-white-secondary:            rgba($color-text-white, .7);
+$color-text-white-disabled:             rgba($color-text-white,	.3);
+$color-text-white-hint:                 rgba($color-text-white,	.3);
 
-// // Color Variations
-// $color-default-darker: 					shade($color-default,40);	
-// $color-default-dark: 					shade($color-default,26);	
-// $color-default-light: 					tint($color-default,40);	
-// $color-default-lighter: 				tint($color-default,80);	
+// Color Variations
+$color-default-darker: 					shade($color-default,40);	
+$color-default-dark: 					shade($color-default,26);	
+$color-default-light: 					tint($color-default,40);	
+$color-default-lighter: 				tint($color-default,80);	
 
-// $color-inverse-darker: 					shade($color-inverse,40);	
-// $color-inverse-dark: 					shade($color-inverse,26);	
-// $color-inverse-light: 					tint($color-inverse,40);	
-// $color-inverse-lighter: 				tint($color-inverse,80);	
+$color-inverse-darker: 					shade($color-inverse,40);	
+$color-inverse-dark: 					shade($color-inverse,26);	
+$color-inverse-light: 					tint($color-inverse,40);	
+$color-inverse-lighter: 				tint($color-inverse,80);	
 
-// $color-primary-darker: 					shade($color-primary,40);	
-// $color-primary-dark: 					shade($color-primary,26);	
-// $color-primary-light: 					tint($color-primary,40);	
-// $color-primary-lighter: 				tint($color-primary,80);	
+$color-primary-darker: 					shade($color-primary,40);	
+$color-primary-dark: 					shade($color-primary,26);	
+$color-primary-light: 					tint($color-primary,40);	
+$color-primary-lighter: 				tint($color-primary,80);	
 
-// $color-info-darker: 					shade($color-info,40);	
-// $color-info-dark: 						shade($color-info,26);	
-// $color-info-light: 						tint($color-info,40);	
-// $color-info-lighter: 					tint($color-info,80);	
+$color-info-darker: 					shade($color-info,40);	
+$color-info-dark: 						shade($color-info,26);	
+$color-info-light: 						tint($color-info,40);	
+$color-info-lighter: 					tint($color-info,80);	
 
 $color-success-darker: 					shade($color-success,40);	
-// $color-success-dark: 					shade($color-success,26);	
-// $color-success-light: 					tint($color-success,40);	
-// $color-success-lighter: 				tint($color-success,80);	
+$color-success-dark: 					shade($color-success,26);	
+$color-success-light: 					tint($color-success,40);	
+$color-success-lighter: 				tint($color-success,80);	
 
-// $color-warning-darker: 					shade($color-warning,40);	
-// $color-warning-dark: 					shade($color-warning,26);	
-// $color-warning-light: 					tint($color-warning,40);	
-// $color-warning-lighter: 				tint($color-warning,80);	
+$color-warning-darker: 					shade($color-warning,40);	
+$color-warning-dark: 					shade($color-warning,26);	
+$color-warning-light: 					tint($color-warning,40);	
+$color-warning-lighter: 				tint($color-warning,80);	
 
-// $color-danger-darker: 					shade($color-danger,40);	
-// $color-danger-dark: 					shade($color-danger,26);	
-// $color-danger-light: 					tint($color-danger,40);	
-// $color-danger-lighter: 					tint($color-danger,80);
+$color-danger-darker: 					shade($color-danger,40);	
+$color-danger-dark: 					shade($color-danger,26);	
+$color-danger-light: 					tint($color-danger,40);	
+$color-danger-lighter: 					tint($color-danger,80);
 
 
 
@@ -199,23 +199,23 @@ $input-line-height:							1.1;
 
 
 
-// //== Alerts
-// //
-// //##
+//== Alerts
+//
+//##
 
-// // Background Color
+// Background Color
 // $color-alert-bg-info: 					$color-info-lighter;
 // $color-alert-bg-success: 				$color-success-lighter;
 // $color-alert-bg-warning: 				$color-warning-lighter;
 // $color-alert-bg-danger: 					$color-danger-lighter;
 
-// // Text Color
+// Text Color
 // $color-alert-text-info: 					$color-info-darker;
 // $color-alert-text-success: 				$color-success-darker;
 // $color-alert-text-warning: 				$color-warning-darker;
 // $color-alert-text-danger: 				$color-danger-darker;
 
-// // Border Color
+// Border Color
 // $color-alert-border-info: 				$color-info-dark;
 // $color-alert-border-success: 			$color-success-dark;
 // $color-alert-border-warning: 			$color-warning-dark;
@@ -223,11 +223,11 @@ $input-line-height:							1.1;
 
 
 
-// //== Buttons
-// //
-// //## For each buttons, define text, background and border color.
+//== Buttons
+//
+//## For each buttons, define text, background and border color.
 
-// // Background Color
+// Background Color
 // $color-btn-bg-default: 					$color-default;	
 // $color-btn-bg-inverse: 					$color-inverse;	
 // $color-btn-bg-primary: 					$color-primary; 
@@ -237,7 +237,7 @@ $input-line-height:							1.1;
 // $color-btn-bg-danger: 					$color-danger; 	
 // $color-btn-bg-white: 					#FFF; 
 
-// // Text Color
+// Text Color
 // $color-btn-text-default: 				$color-text-black;
 // $color-btn-text-inverse: 				#FFF;
 // $color-btn-text-primary: 				#FFF;
@@ -247,7 +247,7 @@ $input-line-height:							1.1;
 // $color-btn-text-danger: 					#FFF;
 // $color-btn-text-white: 					$color-text-black; 
 
-// // Border Color
+// Border Color
 // $color-btn-border-default: 				$color-default;
 // $color-btn-border-inverse: 				$color-inverse;
 // $color-btn-border-primary: 				$color-primary;
