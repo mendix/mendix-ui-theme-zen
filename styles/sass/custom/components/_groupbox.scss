@@ -1,0 +1,81 @@
+/* ==========================================================================
+   Groupbox
+
+   Default Mendix Groupboxes
+========================================================================== */
+.mx-groupbox {
+	/* Styles here */
+	> .mx-groupbox-header {
+		border-radius: 4px 4px 0 0;
+		background-color: #FFF;
+		font-size: 12px;
+		border-bottom: 1px solid $color-groupbox-default;
+		.mx-groupbox-collapse-icon {
+			/* Styles here */
+		}
+	}
+	> .mx-groupbox-body {
+		border-radius: 0 0 4px 4px;
+  	}
+  	.mx-groupbox-header + .mx-groupbox-body {
+  		/* Styles here */
+	}
+
+	&.collapsed > .mx-groupbox-header {
+		/* Styles here */
+	}
+}
+
+
+// ==========================================================================
+// Groupbox Callouts
+//
+// Default Mendix Groupboxes rendered as (Bootstrap) callouts
+// ==========================================================================
+.mx-groupbox {	
+	&.groupbox-callout {
+		> .mx-groupbox-header, 
+		> .mx-groupbox-body {
+
+	  	}
+	  	.mx-groupbox-header + .mx-groupbox-body {
+
+	  	}
+	}
+	&.groupbox-callout-info {
+		> .mx-groupbox-header, 
+		> .mx-groupbox-body {
+
+		}
+		> .mx-groupbox-header {
+
+		}
+	}
+	&.groupbox-callout-success {
+		> .mx-groupbox-header, 
+		> .mx-groupbox-body {
+
+		}
+		> .mx-groupbox-header {
+
+		}
+	}
+	&.groupbox-callout-warning {
+		> .mx-groupbox-header, 
+		> .mx-groupbox-body {
+			
+		}
+		> .mx-groupbox-header {
+			
+		}
+	}
+	&.groupbox-callout-danger {
+		> .mx-groupbox-header, 
+		> .mx-groupbox-body {
+
+		}
+		> .mx-groupbox-header {
+			
+		}
+	}
+}

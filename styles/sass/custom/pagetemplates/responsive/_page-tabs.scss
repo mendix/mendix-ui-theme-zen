@@ -1,0 +1,19 @@
+/* ==========================================================================
+   Special styles for presenting Page Template Tabs
+========================================================================== */
+.page-tabs {
+	.section.pageheader {
+		padding-bottom: 20px;
+	}
+	.tabsfullwidth {
+		background-color: $color-layout-bg-secondary;
+	}
+}
+.page-tabs-default {
+	/* Styles here */
+}
+.page-tabs-fullwidth {
+	.pageheader.pageheader-fullwidth {
+		border-style: none;
+	}
+}

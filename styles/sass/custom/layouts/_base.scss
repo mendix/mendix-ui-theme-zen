@@ -1,0 +1,104 @@
+/* ==========================================================================
+   Regions
+
+   Used for navigation layouts
+========================================================================== */
+.region-topbar {
+	/* Styles here */
+	> .mx-layoutcontainer-wrapper {
+		/* Styles here */
+	}
+	.toggle-btn {
+		font-size: 14px;
+		padding: 5px 10px;
+		margin-top: 9px;
+		color: #FFF;
+		border-color: #FFF;
+
+		&:focus,
+		&:hover,
+		&:active,
+		&.active {
+			background-color: $color-success-darker;
+		}
+	}
+	
+	// SSO widgets
+	.navbar-right {
+		.mx-appswitcher-button-placeholder,
+		.mx-profilemenu-button-placeholder  {
+			border-left: none;
+			iframe {
+				width: 28px !important;
+				height: 28px !important;
+			}
+		
+		}
+		.mx-profilemenu-button-placeholder {
+			
+		}
+	}
+}
+.region-sidebar {
+	/* Styles here */
+	> .mx-layoutcontainer-wrapper {
+		/* Styles here */
+	}
+}
+.region-content {
+	/* Styles here */
+	> .mx-layoutcontainer-wrapper {
+		/* Styles here */
+	}
+}
+.layout-sidebar-responsive {
+	.mx-layoutgrid {
+		.region-sidebar-fixed {
+		    width: 230px !important;
+		}
+		.region-content {
+			width: calc(100% - 230px) !important;
+			margin-left: 230px !important;
+			@media (max-width: 768px) {
+				margin: 0 !important;
+				width: 100% !important;
+			}
+
+		}
+	}
+}
+.region-sidebar, 
+.layout-sidebar-responsive .region-sidebar-fixed {
+	border-right: 1px solid $color-navsidebar-border;
+}
+.profile-phone .region-sidebar,
+.profile-phone .layout-sidebar-responsive .region-sidebar-fixed {
+	border-left: 1px solid $color-navsidebar-border;
+}
+
+
+/* ==========================================================================
+   Navbar Brand
+
+   Used to style your app brand and logo
+========================================================================== */
+.navbar-brand {
+	min-height: 44px;
+	padding: 7px 0;
+	img {
+		/* Styles here */
+	}
+	a {
+		font-size: 14px;
+		color: #FFF;
+		&:hover,
+		&:focus {
+			
+		}
+	}
+}
+
+.navlayout-topbar .navbar-brand {
+	padding: 22px 0;
+    min-height: 80px;
+}
