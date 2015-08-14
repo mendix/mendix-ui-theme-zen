@@ -570,17 +570,53 @@ h1, h2, h3, h4, h5, h6,
 
    Default Mendix Layout
 ========================================================================== */
+.profile-phone .mx-layoutcontainer-wrapper,
+.profile-tablet .mx-layoutcontainer-wrapper {
+  /* Search Field */
+}
+
 /* ==========================================================================
    Listview for phone and tablet
 ========================================================================== */
-.profile-phone,
-.profile-tablet {
-  /* Listview Load More button */
+.profile-phone .mx-listview,
+.profile-tablet .mx-listview {
+  /* Styles here */
 }
 .profile-phone .mx-listview .mx-listview-searchbar,
 .profile-tablet .mx-listview .mx-listview-searchbar {
+  /* Styles here */
+}
+.profile-phone .mx-listview .mx-listview-searchbar button,
+.profile-tablet .mx-listview .mx-listview-searchbar button {
   /* Reset Search Button - default hidden */
+}
+.profile-phone .mx-listview .mx-listview-searchbar .mx-listview-search-input,
+.profile-tablet .mx-listview .mx-listview-searchbar .mx-listview-search-input {
   /* Search Field */
+}
+.profile-phone .mx-listview .mx-listview-searchbar .mx-listview-search-input input,
+.profile-tablet .mx-listview .mx-listview-searchbar .mx-listview-search-input input {
+  /* Styles here */
+}
+.profile-phone .mx-listview .mx-list,
+.profile-tablet .mx-listview .mx-list {
+  /* Styles here */
+}
+.profile-phone .mx-listview .mx-list .mx-listview-item,
+.profile-tablet .mx-listview .mx-list .mx-listview-item {
+  /* Styles here */
+}
+.profile-phone .mx-listview .mx-list .mx-listview-item:first-child,
+.profile-tablet .mx-listview .mx-list .mx-listview-item:first-child {
+  /* Styles here */
+}
+.profile-phone .mx-listview .mx-list .mx-listview-item:last-child,
+.profile-tablet .mx-listview .mx-list .mx-listview-item:last-child {
+  /* Styles here */
+}
+.profile-phone .mx-listview-loadMore,
+.profile-tablet .mx-listview-loadMore {
+  /* Listview Load More button */
 }
 
 /* ==========================================================================
@@ -588,11 +624,48 @@ h1, h2, h3, h4, h5, h6,
 
    Default Mendix Header for Mobile 
 ========================================================================== */
+body .mx-header {
+  /* Styles here */
+}
+body .mx-header .mx-header-center {
+  /* Styles here */
+}
+body .mx-header .mx-header-left {
+  /* Styles here */
+}
+body .mx-header .mx-header-right {
+  /* Styles here */
+}
+body .mx-header .mx-title {
+  /* Styles here */
+}
+body .mx-header .btn-image.glyphicon {
+  /* Styles here */
+}
+body .mx-header .mx-sidebartoggle {
+  /* Styles here */
+}
+
 /* ==========================================================================
    Tabcontainer
 
    Default Mendix Tabcontainer for Mobile 
 ========================================================================== */
+.profile-phone .mx-tabcontainer-tabs,
+.profile-tablet .mx-tabcontainer-tabs {
+  /* Styles here */
+}
+.profile-phone .mx-tabcontainer-tabs li a,
+.profile-tablet .mx-tabcontainer-tabs li a {
+  /* Styles here */
+}
+.profile-phone .mx-tabcontainer-tabs li a:hover, .profile-phone .mx-tabcontainer-tabs li a:focus, .profile-phone .mx-tabcontainer-tabs li a.active,
+.profile-tablet .mx-tabcontainer-tabs li a:hover,
+.profile-tablet .mx-tabcontainer-tabs li a:focus,
+.profile-tablet .mx-tabcontainer-tabs li a.active {
+  /* Styles here */
+}
+
 /* ==========================================================================
    Special styles for presenting Page Template Dashboard
 ========================================================================== */
@@ -951,6 +1024,9 @@ h1, h2, h3, h4, h5, h6,
   color: #333;
 }
 
+/* ==========================================================================
+   Multilevel
+========================================================================== */
 .multilevel-list .mx-listview-item {
   cursor: pointer;
 }

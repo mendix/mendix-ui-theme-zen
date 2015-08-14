@@ -4,35 +4,33 @@
 .profile-phone,
 .profile-tablet {
 	.mx-listview {
+		/* Styles here */
 		.mx-listview-searchbar {
-
-			/* Reset Search Button - default hidden */
+			/* Styles here */
 			button {
-			
+				/* Reset Search Button - default hidden */
 			}
-			/* Search Field */
 			.mx-listview-search-input {
+				/* Search Field */
 				input {
-
+					/* Styles here */
 				}
 			}
 		}
 		.mx-list {
+			/* Styles here */
 			.mx-listview-item {
+				/* Styles here */
 				&:first-child {
-
+					/* Styles here */
 				}
 				&:last-child {
-
+					/* Styles here */
 				}
 			}
 		}
 	}
-	label {
-
-	}
-	/* Listview Load More button */
 	.mx-listview-loadMore {
-
+		/* Listview Load More button */
 	}
 }
