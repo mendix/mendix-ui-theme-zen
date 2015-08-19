@@ -493,7 +493,7 @@ h1, h2, h3, h4, h5, h6,
   border-color: #FFF;
 }
 .region-topbar .toggle-btn:focus, .region-topbar .toggle-btn:hover, .region-topbar .toggle-btn:active, .region-topbar .toggle-btn.active {
-  background-color: #486200;
+  background-color: shade(#78a300, 40);
 }
 .region-topbar .navbar-right .mx-appswitcher-button-placeholder,
 .region-topbar .navbar-right .mx-profilemenu-button-placeholder {
