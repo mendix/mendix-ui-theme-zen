@@ -332,12 +332,16 @@ textarea.form-control {
   /* Styles here */
 }
 .mx-navigationtree .navbar-inner ul li a {
-  /* Styles here */
+  border-style: none;
+  -webkit-transform: scale(1);
+  transform: scale(1);
 }
 .mx-navigationtree .navbar-inner ul li a:hover,
 .mx-navigationtree .navbar-inner ul li a:focus,
 .mx-navigationtree .navbar-inner ul li a.active {
-  /* Styles here */
+  padding-left: 20px;
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
 }
 .mx-navigationtree .navbar-inner ul li a.active {
   /* Styles here */
@@ -352,7 +356,7 @@ textarea.form-control {
    Default Mendix Simple Menu Bar
 ========================================================================== */
 .mx-menubar {
-  /* Styles here */
+  border-top: 1px solid #CCC;
 }
 .mx-menubar ul.mx-menubar-list {
   /* Styles here */
@@ -493,7 +497,7 @@ h1, h2, h3, h4, h5, h6,
   border-color: #FFF;
 }
 .region-topbar .toggle-btn:focus, .region-topbar .toggle-btn:hover, .region-topbar .toggle-btn:active, .region-topbar .toggle-btn.active {
-  background-color: shade(#78a300, 40);
+  background-color: #486200;
 }
 .region-topbar .navbar-right .mx-appswitcher-button-placeholder,
 .region-topbar .navbar-right .mx-profilemenu-button-placeholder {
@@ -1253,5 +1257,3 @@ body .mx-header .mx-sidebartoggle {
 .templategrid-profilecard .templategrid-profilecard-subtitle {
   /* Styles here */
 }
-
-/*# sourceMappingURL=custom.css.map */

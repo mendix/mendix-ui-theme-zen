@@ -87,7 +87,9 @@
 		li {
 			/* Styles here */
 			a {
-				/* Styles here */
+				border-style: none;
+				-webkit-transform: scale(1);
+    			transform: scale(1);
 				.caret {
 
 				}
@@ -100,7 +102,9 @@
 			a:hover,
 			a:focus,
 			a.active {
-				/* Styles here */
+				padding-left: 20px;
+				-webkit-transform: scale(1.05);
+    			transform: scale(1.05);
 				.caret {
 
 				}
@@ -142,7 +146,7 @@
    Default Mendix Simple Menu Bar
 ========================================================================== */
 .mx-menubar {
-	/* Styles here */
+	border-top: 1px solid $color-navsidebar-border;
 	ul.mx-menubar-list {
 		/* Styles here */
 		li.mx-menubar-item {
