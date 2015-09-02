@@ -1028,6 +1028,13 @@ body .mx-header .mx-sidebartoggle {
   color: #333;
 }
 
+.masterdetail-listview .mx-listview .mx-listview-item.selected {
+  color: #146EAA;
+}
+.masterdetail-listview .mx-listview .mx-listview-item.selected .mx-link {
+  color: #146EAA;
+}
+
 /* ==========================================================================
    Multilevel
 ========================================================================== */
