@@ -1809,9 +1809,6 @@ img.img-auto,
 .mx-listview .mx-button.mx-listview-clear-button {
   width: auto;
 }
-.mx-listview .mx-listview-content {
-  display: block;
-}
 .mx-listview > .mx-button {
   width: 100%;
   margin: 10px auto;
@@ -3230,6 +3227,9 @@ h1, h2, h3, h4, h5, h6,
   background-color: transparent;
 }
 .masterdetail-listview .mx-listview .mx-listview-item.selected {
+  color: #FFF;
+}
+.masterdetail-listview .mx-listview .mx-listview-item.selected .mx-link {
   color: #FFF;
 }
 .masterdetail-listview .mx-listview .mx-listview-item.selected:hover, .masterdetail-listview .mx-listview .mx-listview-item.selected:active {
