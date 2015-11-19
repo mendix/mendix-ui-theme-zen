@@ -69,11 +69,11 @@
 }
 .region-sidebar, 
 .layout-sidebar-responsive .region-sidebar-fixed {
-	border-right: 1px solid $color-navsidebar-border;
+	border-right: 1px solid $navsidebar-border-color;
 }
 .profile-phone .region-sidebar,
 .profile-phone .layout-sidebar-responsive .region-sidebar-fixed {
-	border-left: 1px solid $color-navsidebar-border;
+	border-left: 1px solid $navsidebar-border-color;
 }
 
 
