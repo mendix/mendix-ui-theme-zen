@@ -4339,7 +4339,7 @@ body[dir="ltr"] .mx-header-right {
    Used for navigation layouts
 ========================================================================== */
 .region-topbar {
-  min-height: 44px;
+  min-height: 50px;
   border-bottom: 1px solid #DDD;
   background-color: #78a300;
 }
@@ -4352,14 +4352,14 @@ body[dir="ltr"] .mx-header-right {
   margin: 20px 15px 0 0;
 }
 .region-topbar .navbar-right {
-  min-height: 44px;
+  min-height: 50px;
 }
 .region-topbar .navbar-right .mx-appswitcher-button-placeholder,
 .region-topbar .navbar-right .mx-profilemenu-button-placeholder {
   display: inline-block;
   border-left: 1px solid #DDD;
-  width: 44px;
-  height: 44px;
+  width: 50px;
+  height: 50px;
   position: relative;
   float: left;
 }
@@ -4447,10 +4447,10 @@ body[dir="ltr"] .mx-header-right {
 ========================================================================== */
 .navbar-brand {
   display: block;
-  min-height: 44px;
+  min-height: 50px;
   float: left;
   padding: 0;
-  line-height: 44px;
+  line-height: 50px;
 }
 .navbar-brand img {
   height: 37px;
@@ -4458,7 +4458,7 @@ body[dir="ltr"] .mx-header-right {
 }
 .navbar-brand a {
   font-size: 20px;
-  color: #000;
+  color: #FFF;
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;

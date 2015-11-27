@@ -552,21 +552,21 @@ h1, h2, h3, h4, h5, h6,
 
    Used to style your app brand and logo
 ========================================================================== */
-.navbar-brand {
-  min-height: 44px;
-  padding: 7px 0;
-}
 .navbar-brand img {
   /* Styles here */
 }
 .navbar-brand a {
   font-size: 14px;
-  color: #FFF;
 }
 
 .navlayout-topbar .navbar-brand {
-  padding: 22px 0;
+  padding: 16px 0;
   min-height: 80px;
+}
+.navlayout-topbar .navbar-right .mx-appswitcher-button-placeholder,
+.navlayout-topbar .navbar-right .mx-profilemenu-button-placeholder {
+  height: 80px;
+  width: 80px;
 }
 
 /* ==========================================================================
