@@ -4447,9 +4447,10 @@ body[dir="ltr"] .mx-header-right {
 ========================================================================== */
 .navbar-brand {
   display: block;
-  min-height: 80px;
+  min-height: 44px;
   float: left;
-  padding: 22px 0;
+  padding: 0;
+  line-height: 44px;
 }
 .navbar-brand img {
   height: 37px;
