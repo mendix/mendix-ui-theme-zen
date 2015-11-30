@@ -69,11 +69,11 @@
 }
 .region-sidebar, 
 .layout-sidebar-responsive .region-sidebar-fixed {
-	border-right: 1px solid $color-navsidebar-border;
+	border-right: 1px solid $navsidebar-border-color;
 }
 .profile-phone .region-sidebar,
 .profile-phone .layout-sidebar-responsive .region-sidebar-fixed {
-	border-left: 1px solid $color-navsidebar-border;
+	border-left: 1px solid $navsidebar-border-color;
 }
 
 
@@ -83,14 +83,11 @@
    Used to style your app brand and logo
 ========================================================================== */
 .navbar-brand {
-	min-height: 44px;
-	padding: 7px 0;
 	img {
 		/* Styles here */
 	}
 	a {
 		font-size: 14px;
-		color: #FFF;
 		&:hover,
 		&:focus {
 			
@@ -98,7 +95,16 @@
 	}
 }
 
-.navlayout-topbar .navbar-brand {
-	padding: 22px 0;
-    min-height: 80px;
+.navlayout-topbar {
+	.navbar-brand {
+		padding: 16px 0;
+    	min-height: 80px;
+    }
+    .navbar-right {
+		.mx-appswitcher-button-placeholder,
+		.mx-profilemenu-button-placeholder {
+			height: 80px;
+			width: 80px;
+		}
+	}
 }

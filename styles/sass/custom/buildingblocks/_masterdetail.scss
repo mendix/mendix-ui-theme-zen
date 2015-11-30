@@ -10,9 +10,9 @@
 	
 		.mx-listview-item {
 			&.selected {
-				color: $color-primary;
+				color: $brand-primary;
 				.mx-link {
-					color: $color-primary;
+					color: $brand-primary;
 				}
 				&:hover,
 				&:active {

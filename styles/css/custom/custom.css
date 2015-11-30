@@ -169,7 +169,7 @@ a:hover {
   border-radius: 4px 4px 0 0;
   background-color: #FFF;
   font-size: 12px;
-  border-bottom: 1px solid #DDD;
+  border-bottom: 1px solid #DDDDDD;
 }
 .mx-groupbox > .mx-groupbox-header .mx-groupbox-collapse-icon {
   /* Styles here */
@@ -196,7 +196,7 @@ textarea.form-control {
 }
 
 .form-control:focus {
-  box-shadow: 0 0 3px #78A300;
+  box-shadow: 0 0 3px #78a300;
 }
 
 .mx-textarea label {
@@ -356,7 +356,7 @@ textarea.form-control {
    Default Mendix Simple Menu Bar
 ========================================================================== */
 .mx-menubar {
-  border-top: 1px solid #CCC;
+  border-top: 1px solid #DDD;
 }
 .mx-menubar ul.mx-menubar-list {
   /* Styles here */
@@ -539,12 +539,12 @@ h1, h2, h3, h4, h5, h6,
 
 .region-sidebar,
 .layout-sidebar-responsive .region-sidebar-fixed {
-  border-right: 1px solid #CCC;
+  border-right: 1px solid #DDD;
 }
 
 .profile-phone .region-sidebar,
 .profile-phone .layout-sidebar-responsive .region-sidebar-fixed {
-  border-left: 1px solid #CCC;
+  border-left: 1px solid #DDD;
 }
 
 /* ==========================================================================
@@ -552,21 +552,21 @@ h1, h2, h3, h4, h5, h6,
 
    Used to style your app brand and logo
 ========================================================================== */
-.navbar-brand {
-  min-height: 44px;
-  padding: 7px 0;
-}
 .navbar-brand img {
   /* Styles here */
 }
 .navbar-brand a {
   font-size: 14px;
-  color: #FFF;
 }
 
 .navlayout-topbar .navbar-brand {
-  padding: 22px 0;
+  padding: 16px 0;
   min-height: 80px;
+}
+.navlayout-topbar .navbar-right .mx-appswitcher-button-placeholder,
+.navlayout-topbar .navbar-right .mx-profilemenu-button-placeholder {
+  height: 80px;
+  width: 80px;
 }
 
 /* ==========================================================================
@@ -674,18 +674,15 @@ body .mx-header .mx-sidebartoggle {
    Special styles for presenting Page Template Dashboard
 ========================================================================== */
 .page-dashboard {
-  background-color: #f8f8f8;
-}
-.page-dashboard .chartjs-node {
-  margin-top: 30px;
+  /* Styles here */
 }
 
 .page-dashboard-default .card {
-  min-height: 345px;
+  /* Styles here */
 }
 
 .page-dashboard-mytasks .card {
-  min-height: 320px;
+  /* Styles here */
 }
 
 .page-dashboard-actions {
@@ -749,7 +746,7 @@ body .mx-header .mx-sidebartoggle {
   padding-bottom: 20px;
 }
 .page-tabs .tabsfullwidth {
-  background-color: #f8f8f8;
+  /* Styles here */
 }
 
 .page-tabs-default {
@@ -757,7 +754,7 @@ body .mx-header .mx-sidebartoggle {
 }
 
 .page-tabs-fullwidth .pageheader.pageheader-fullwidth {
-  border-style: none;
+  /* Styles here */
 }
 
 /* ==========================================================================
@@ -802,7 +799,7 @@ body .mx-header .mx-sidebartoggle {
    Special styles for presenting Page Template Phone
 ========================================================================== */
 .phone-page-dashboard {
-  background-color: #f8f8f8;
+  /* Styles here */
 }
 
 .phone-page-dashboard-default {
@@ -850,7 +847,7 @@ body .mx-header .mx-sidebartoggle {
    Special styles for presenting Page Template Tablet Dashboard
 ========================================================================== */
 .tablet-page-dashboard {
-  background-color: #f8f8f8;
+  /* Styles here */
 }
 
 .tablet-page-dashboard-default {

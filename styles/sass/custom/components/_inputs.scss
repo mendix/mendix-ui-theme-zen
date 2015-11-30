@@ -2,13 +2,13 @@
    Inputs
 ========================================================================== */
 .form-control {
-	line-height: $input-line-height;
+	line-height: 1.1;
 }
 textarea.form-control {
 	/* Styles here */
 }
 .form-control:focus {
-	box-shadow: 0 0 3px #78A300;
+	box-shadow: 0 0 3px $brand-success;
 }
 // Not editable textarea, textarea will be rendered as a label
 .mx-textarea label {
