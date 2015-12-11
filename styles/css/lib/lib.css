@@ -143,6 +143,10 @@
 
    Default settings
 ========================================================================== */
+html {
+  height: 100%;
+}
+
 body {
   font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, Tahoma, sans-serif;
   font-weight: normal;
@@ -150,6 +154,7 @@ body {
   font-size: 12px;
   line-height: 1.42857;
   background-color: #FFF;
+  min-height: 100%;
 }
 
 a {
