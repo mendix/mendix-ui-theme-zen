@@ -556,16 +556,6 @@ h1, h2, h3, h4, h5, h6,
   font-size: 14px;
 }
 
-.navlayout-topbar .navbar-brand {
-  padding: 16px 0;
-  min-height: 80px;
-}
-.navlayout-topbar .navbar-right .mx-appswitcher-button-placeholder,
-.navlayout-topbar .navbar-right .mx-profilemenu-button-placeholder {
-  height: 80px;
-  width: 80px;
-}
-
 /* ==========================================================================
    Layout
 
