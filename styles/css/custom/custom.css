@@ -556,6 +556,14 @@ h1, h2, h3, h4, h5, h6,
   font-size: 14px;
 }
 
+.navlayout-topbar .navbar-brand {
+  /* Styles here */
+}
+.navlayout-topbar .navbar-right .mx-appswitcher-button-placeholder,
+.navlayout-topbar .navbar-right .mx-profilemenu-button-placeholder {
+  /* Styles here */
+}
+
 /* ==========================================================================
    Layout
 
