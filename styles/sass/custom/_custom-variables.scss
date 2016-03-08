@@ -20,6 +20,10 @@ $brand-success:                         #78a300;
 $brand-warning:                         #f5e258;
 $brand-danger:                          #f57f7d;
 
+$brand-logo:                            false;
+$brand-logo-height:                     40px;
+$brand-logo-width:                      40px; // Only used for CSS brand logo
+
 
 //== Step 2: UI Customization
 
@@ -61,6 +65,10 @@ $link-hover-color:                      darken($link-color, 15%);
 
 //== Typography
 //## Change your font family, weight, line-height, headings and more (used in components/typography)
+
+// Font Family Import
+$font-family-import:                    false;
+@import url($font-family-import);
 
 // Font Family / False = fallback from Bootstrap (Helvetica Neue)
 $font-family-base:                      "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Verdana,Tahoma,sans-serif;
