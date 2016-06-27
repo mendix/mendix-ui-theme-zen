@@ -494,29 +494,10 @@ $groupbox-default-bg:                   $brand-default;
 $m-header-bg:                           $topbar-bg;
 
 // Text Color
-// $m-header-color:                        $font-base-color;
+$m-header-color:                        #FFF;
 
 // Link Color
 $m-header-link-color:                   #FFF;
-
-
-
-
-//== Mobile Tabs
-//## Specific mobile widgets and components (used in mobile/components/tabcontainer)
-
-// Text Color
-$m-tabs-color:                          $gray;
-// $m-tabs-color-active:                   #000;
-
-// Background Color
-$m-tabs-bg:                             $brand-default;
-// $m-tabs-bg-color-hover:                 lighten($tabs-border-color,5);
-// $m-tabs-bg-color-active:                darken($m-tabs-bg, 15);    
-
-// Border Color
-// $m-tabs-border-color:                   darken($m-tabs-bg, 15);
-// $m-tabs-border-color-active:            darken($m-tabs-bg, 15);
 
 
 

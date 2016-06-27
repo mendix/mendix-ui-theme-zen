@@ -416,6 +416,10 @@ textarea.form-control {
   /* Styles here */
 }
 
+.tab-mobile.mx-tabcontainer .mx-tabcontainer-tabs {
+  background-color: #78a300;
+}
+
 /* ==========================================================================
    Tables
 
@@ -624,7 +628,7 @@ h1, h2, h3, h4, h5, h6,
    Default Mendix Header for Mobile 
 ========================================================================== */
 body .mx-header {
-  /* Styles here */
+  border-style: none;
 }
 body .mx-header .mx-header-center {
   /* Styles here */
@@ -650,21 +654,6 @@ body .mx-header .mx-sidebartoggle {
 
    Default Mendix Tabcontainer for Mobile 
 ========================================================================== */
-.profile-phone .mx-tabcontainer-tabs,
-.profile-tablet .mx-tabcontainer-tabs {
-  /* Styles here */
-}
-.profile-phone .mx-tabcontainer-tabs li a,
-.profile-tablet .mx-tabcontainer-tabs li a {
-  /* Styles here */
-}
-.profile-phone .mx-tabcontainer-tabs li a:hover, .profile-phone .mx-tabcontainer-tabs li a:focus, .profile-phone .mx-tabcontainer-tabs li a.active,
-.profile-tablet .mx-tabcontainer-tabs li a:hover,
-.profile-tablet .mx-tabcontainer-tabs li a:focus,
-.profile-tablet .mx-tabcontainer-tabs li a.active {
-  /* Styles here */
-}
-
 /* ==========================================================================
    Special styles for presenting Page Template Dashboard
 ========================================================================== */
