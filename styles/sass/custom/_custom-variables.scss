@@ -13,7 +13,7 @@
 
 //== Step 1: Brand Colors
 $brand-default:                         #DDDDDD;    
-$brand-primary:                         #146EAA;    
+$brand-primary:                         #78a300;    
 $brand-inverse:                         #333; 
 $brand-info:                            #5994BB;
 $brand-success:                         #78a300;
@@ -28,7 +28,7 @@ $brand-logo-width:                      40px; // Only used for CSS brand logo
 //== Step 2: UI Customization
 
 // Topbar 
-$topbar-bg:                             $brand-success;
+$topbar-bg:                             $brand-primary;
 $topbar-minimalheight:                  50px;
 
 // Sidebar 
@@ -345,7 +345,7 @@ $tabs-color:                            $gray;
 
 // Border Color
 // $tabs-border-color:                     $default-border-color;    
-$tabs-lined-border-color:               $brand-success;
+$tabs-lined-border-color:               $brand-primary;
 
 // Background Color
 // $tabs-bg-hover:                         lighten($tabs-border-color,5);

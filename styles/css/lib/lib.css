@@ -158,7 +158,7 @@ body {
 }
 
 a {
-  color: #146EAA;
+  color: #78a300;
   -webkit-transition: 0.25s;
   -moz-transition: 0.25s;
   -o-transition: 0.25s;
@@ -168,7 +168,7 @@ a {
 
 a:hover {
   text-decoration: underline;
-  color: #0c4266;
+  color: #405700;
 }
 
 a:focus {
@@ -380,23 +380,23 @@ textarea.form-control {
 }
 
 .background-primary {
-  background-color: #146EAA !important;
+  background-color: #78a300 !important;
 }
 
 .background-primary-darker {
-  background-color: #0c4266 !important;
+  background-color: #486200 !important;
 }
 
 .background-primary-dark {
-  background-color: #0f517e !important;
+  background-color: #597900 !important;
 }
 
 .background-primary-light {
-  background-color: #72a8cc !important;
+  background-color: #aec866 !important;
 }
 
 .background-primary-lighter {
-  background-color: #d0e2ee !important;
+  background-color: #e4edcc !important;
 }
 
 .background-info {
@@ -525,7 +525,7 @@ textarea.form-control {
 
 .mx-link {
   padding: 0;
-  color: #146EAA;
+  color: #78a300;
 }
 .mx-link a {
   color: inherit;
@@ -571,29 +571,29 @@ textarea.form-control {
 }
 
 .btn-primary, .mx-grid.datagrid-fullsearch .mx-grid-search-button, .mx-grid.multilevel-grid .mx-grid-search-button {
-  border-color: #146EAA;
-  background-color: #146EAA;
+  border-color: #78a300;
+  background-color: #78a300;
   color: #FFF;
 }
 .btn-primary:hover, .mx-grid.datagrid-fullsearch .mx-grid-search-button:hover, .mx-grid.multilevel-grid .mx-grid-search-button:hover, .btn-primary:focus, .mx-grid.datagrid-fullsearch .mx-grid-search-button:focus, .mx-grid.multilevel-grid .mx-grid-search-button:focus, .btn-primary:active, .mx-grid.datagrid-fullsearch .mx-grid-search-button:active, .mx-grid.multilevel-grid .mx-grid-search-button:active, .btn-primary.active, .mx-grid.datagrid-fullsearch .active.mx-grid-search-button, .mx-grid.multilevel-grid .active.mx-grid-search-button, .open > .btn-primary.dropdown-toggle, .mx-grid.datagrid-fullsearch .open > .dropdown-toggle.mx-grid-search-button, .mx-grid.multilevel-grid .open > .dropdown-toggle.mx-grid-search-button {
-  border-color: #0f507c;
-  background-color: #0f507c;
+  border-color: #527000;
+  background-color: #527000;
   color: #FFF;
 }
 .btn-primary:active, .mx-grid.datagrid-fullsearch .mx-grid-search-button:active, .mx-grid.multilevel-grid .mx-grid-search-button:active, .btn-primary.active, .mx-grid.datagrid-fullsearch .active.mx-grid-search-button, .mx-grid.multilevel-grid .active.mx-grid-search-button, .open > .btn-primary.dropdown-toggle, .mx-grid.datagrid-fullsearch .open > .dropdown-toggle.mx-grid-search-button, .mx-grid.multilevel-grid .open > .dropdown-toggle.mx-grid-search-button {
   background-image: none;
 }
 .btn-primary.disabled, .mx-grid.datagrid-fullsearch .disabled.mx-grid-search-button, .mx-grid.multilevel-grid .disabled.mx-grid-search-button, .btn-primary.disabled:hover, .mx-grid.datagrid-fullsearch .disabled.mx-grid-search-button:hover, .mx-grid.multilevel-grid .disabled.mx-grid-search-button:hover, .btn-primary.disabled:focus, .mx-grid.datagrid-fullsearch .disabled.mx-grid-search-button:focus, .mx-grid.multilevel-grid .disabled.mx-grid-search-button:focus, .btn-primary.disabled:active, .mx-grid.datagrid-fullsearch .disabled.mx-grid-search-button:active, .mx-grid.multilevel-grid .disabled.mx-grid-search-button:active, .btn-primary.disabled.active, .mx-grid.datagrid-fullsearch .disabled.active.mx-grid-search-button, .mx-grid.multilevel-grid .disabled.active.mx-grid-search-button, .btn-primary[disabled], .mx-grid.datagrid-fullsearch [disabled].mx-grid-search-button, .mx-grid.multilevel-grid [disabled].mx-grid-search-button, .btn-primary[disabled]:hover, .mx-grid.datagrid-fullsearch [disabled].mx-grid-search-button:hover, .mx-grid.multilevel-grid [disabled].mx-grid-search-button:hover, .btn-primary[disabled]:focus, .mx-grid.datagrid-fullsearch [disabled].mx-grid-search-button:focus, .mx-grid.multilevel-grid [disabled].mx-grid-search-button:focus, .btn-primary[disabled]:active, .mx-grid.datagrid-fullsearch [disabled].mx-grid-search-button:active, .mx-grid.multilevel-grid [disabled].mx-grid-search-button:active, .btn-primary[disabled].active, .mx-grid.datagrid-fullsearch [disabled].active.mx-grid-search-button, .mx-grid.multilevel-grid [disabled].active.mx-grid-search-button, fieldset[disabled] .btn-primary, fieldset[disabled] .mx-grid.datagrid-fullsearch .mx-grid-search-button, .mx-grid.datagrid-fullsearch fieldset[disabled] .mx-grid-search-button, fieldset[disabled] .mx-grid.multilevel-grid .mx-grid-search-button, .mx-grid.multilevel-grid fieldset[disabled] .mx-grid-search-button, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .mx-grid.datagrid-fullsearch .mx-grid-search-button:hover, .mx-grid.datagrid-fullsearch fieldset[disabled] .mx-grid-search-button:hover, fieldset[disabled] .mx-grid.multilevel-grid .mx-grid-search-button:hover, .mx-grid.multilevel-grid fieldset[disabled] .mx-grid-search-button:hover, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .mx-grid.datagrid-fullsearch .mx-grid-search-button:focus, .mx-grid.datagrid-fullsearch fieldset[disabled] .mx-grid-search-button:focus, fieldset[disabled] .mx-grid.multilevel-grid .mx-grid-search-button:focus, .mx-grid.multilevel-grid fieldset[disabled] .mx-grid-search-button:focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .mx-grid.datagrid-fullsearch .mx-grid-search-button:active, .mx-grid.datagrid-fullsearch fieldset[disabled] .mx-grid-search-button:active, fieldset[disabled] .mx-grid.multilevel-grid .mx-grid-search-button:active, .mx-grid.multilevel-grid fieldset[disabled] .mx-grid-search-button:active, fieldset[disabled] .btn-primary.active, fieldset[disabled] .mx-grid.datagrid-fullsearch .active.mx-grid-search-button, .mx-grid.datagrid-fullsearch fieldset[disabled] .active.mx-grid-search-button, fieldset[disabled] .mx-grid.multilevel-grid .active.mx-grid-search-button, .mx-grid.multilevel-grid fieldset[disabled] .active.mx-grid-search-button {
-  border-color: #146EAA;
-  background-color: #146EAA;
+  border-color: #78a300;
+  background-color: #78a300;
 }
 .btn-primary.btn-bordered, .mx-grid.datagrid-fullsearch .btn-bordered.mx-grid-search-button, .mx-grid.multilevel-grid .btn-bordered.mx-grid-search-button {
   background-color: transparent;
-  color: #146EAA;
+  color: #78a300;
 }
 .btn-primary.btn-bordered:hover, .mx-grid.datagrid-fullsearch .btn-bordered.mx-grid-search-button:hover, .mx-grid.multilevel-grid .btn-bordered.mx-grid-search-button:hover, .btn-primary.btn-bordered:focus, .mx-grid.datagrid-fullsearch .btn-bordered.mx-grid-search-button:focus, .mx-grid.multilevel-grid .btn-bordered.mx-grid-search-button:focus, .btn-primary.btn-bordered:active, .mx-grid.datagrid-fullsearch .btn-bordered.mx-grid-search-button:active, .mx-grid.multilevel-grid .btn-bordered.mx-grid-search-button:active, .btn-primary.btn-bordered.active, .mx-grid.datagrid-fullsearch .btn-bordered.active.mx-grid-search-button, .mx-grid.multilevel-grid .btn-bordered.active.mx-grid-search-button, .open > .btn-primary.btn-bordered.dropdown-toggle, .mx-grid.datagrid-fullsearch .open > .btn-bordered.dropdown-toggle.mx-grid-search-button, .mx-grid.multilevel-grid .open > .btn-bordered.dropdown-toggle.mx-grid-search-button {
-  background-color: #146EAA;
-  border-color: #146EAA;
+  background-color: #78a300;
+  border-color: #78a300;
   color: #FFF;
 }
 
@@ -739,11 +739,11 @@ textarea.form-control {
 .btn-link {
   border: 0;
   background-color: transparent;
-  color: #146EAA;
+  color: #78a300;
 }
 .btn-link:hover {
   background-color: transparent;
-  color: #0c4266;
+  color: #405700;
 }
 
 /* Buttons appear disabled */
@@ -845,7 +845,7 @@ textarea.form-control {
 }
 .mx-grid .mx-grid-controlbar .mx-grid-pagingbar .mx-button:hover {
   background-color: transparent;
-  color: #146EAA;
+  color: #78a300;
   border-color: transparent;
 }
 .mx-grid .mx-grid-controlbar .mx-grid-pagingbar .mx-button.disabled, .mx-grid .mx-grid-controlbar .mx-grid-pagingbar .mx-button[disabled] {
@@ -1000,7 +1000,7 @@ textarea.form-control {
   background-color: #eee !important;
 }
 .datagrid-hover.mx-datagrid .mx-datagrid-body-table .mx-datagrid-body tr.selected:hover td, .mx-datagrid.multilevel-grid .mx-datagrid-body-table .mx-datagrid-body tr.selected:hover td {
-  background-color: #cadbe7 !important;
+  background-color: #dde6c6 !important;
 }
 
 /* ==========================================================================
@@ -1078,6 +1078,10 @@ textarea.form-control {
 }
 .mx-dataview .mx-dataview-controls .mx-button {
   margin-bottom: 0;
+  margin-right: 0.3em;
+}
+.mx-dataview .mx-dataview-controls .mx-button:last-child {
+  margin-right: 0;
 }
 .mx-dataview > .mx-dataview-content > .mx-container-nested > .row {
   margin-right: 0;
@@ -1138,7 +1142,7 @@ textarea.form-control {
 .dijitCalendarContainer .dijitCalendarSelectedDate,
 .dijitCalendarContainer .dijitCalendarSelectedDate:hover {
   border-radius: 10px;
-  background: #146EAA;
+  background: #78a300;
 }
 .dijitCalendarContainer .dijitCalendarSelectedDate .dijitCalendarDateLabel,
 .dijitCalendarContainer .dijitCalendarSelectedDate:hover .dijitCalendarDateLabel {
@@ -1331,7 +1335,7 @@ textarea.form-control {
   background: none;
 }
 .dijitMenuPopup .dijitMenu .dijitMenuItem.dijitMenuItemHover .dijitMenuItemLabel {
-  background: #146EAA;
+  background: #78a300;
 }
 .dijitMenuPopup .dijitMenu .tg_newlabelmenuitem .dijitMenuItemLabel {
   font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, Tahoma, sans-serif;
@@ -1475,12 +1479,12 @@ textarea.form-control {
   border-color: #DDDDDD;
 }
 .mx-groupbox.groupbox-primary > .mx-groupbox-header {
-  background: #146EAA;
+  background: #78a300;
   color: #FFF;
-  border-color: #146EAA;
+  border-color: #78a300;
 }
 .mx-groupbox.groupbox-primary > .mx-groupbox-body {
-  border-color: #146EAA;
+  border-color: #78a300;
 }
 .mx-groupbox.groupbox-inverse > .mx-groupbox-header {
   background: #333;
@@ -1764,7 +1768,7 @@ img.img-auto,
 }
 
 .label-primary {
-  background-color: #146EAA;
+  background-color: #78a300;
   color: #FFF;
 }
 
@@ -1820,7 +1824,7 @@ img.img-auto,
   background-color: #eee !important;
 }
 .mx-listview .mx-listview-item.selected:hover {
-  background-color: #cadbe7 !important;
+  background-color: #dde6c6 !important;
 }
 .mx-listview .mx-listview-item:nth-child(2n+1) {
   background-color: #FFF;
@@ -2078,11 +2082,11 @@ img.img-auto,
 }
 .mx-navbar ul.nav > .mx-navbar-item.open .dropdown-menu > li.mx-navbar-subitem.active a {
   background-color: #87b700;
-  color: #146EAA;
+  color: #78a300;
 }
 .mx-navbar ul.nav > .mx-navbar-item.open .dropdown-menu > li.mx-navbar-subitem.active a .caret {
-  border-top-color: #146EAA;
-  border-bottom-color: #146EAA;
+  border-top-color: #78a300;
+  border-bottom-color: #78a300;
 }
 @media (max-width: 768px) {
   .mx-navbar ul.nav > li.mx-navbar-item > a {
@@ -2102,11 +2106,11 @@ img.img-auto,
     font-size: 11px;
   }
   .mx-navbar .mx-navbar-item.open .dropdown-menu > li.mx-navbar-subitem > a:hover, .mx-navbar .mx-navbar-item.open .dropdown-menu > li.mx-navbar-subitem > a:focus {
-    color: #146EAA;
+    color: #78a300;
     background-color: #87b700;
   }
   .mx-navbar .mx-navbar-item.open .dropdown-menu > li.mx-navbar-subitem > a.active {
-    color: #146EAA;
+    color: #78a300;
     background-color: #87b700;
   }
 }
@@ -2198,12 +2202,12 @@ img.img-auto,
   border: 0;
 }
 .mx-navigationtree li.mx-navigationtree-has-items > ul li a:hover, .mx-navigationtree li.mx-navigationtree-has-items > ul li a:focus, .mx-navigationtree li.mx-navigationtree-has-items > ul li a.active {
-  color: #146EAA;
+  color: #78a300;
   background-color: #dddddd;
 }
 .mx-navigationtree li.mx-navigationtree-has-items > ul li a.active {
   border: 0;
-  color: #146EAA;
+  color: #78a300;
   background-color: #dddddd;
 }
 .mx-navigationtree:focus {
@@ -2419,9 +2423,9 @@ img.img-auto,
 .tab-pills.mx-tabcontainer .mx-tabcontainer-tabs > li.active > a,
 .tab-pills.mx-tabcontainer .mx-tabcontainer-tabs > li.active > a:hover,
 .tab-pills.mx-tabcontainer .mx-tabcontainer-tabs > li.active > a:focus {
-  background-color: #146EAA;
+  background-color: #78a300;
   color: #FFF;
-  border-color: #146EAA;
+  border-color: #78a300;
 }
 
 /* ==========================================================================
@@ -2455,7 +2459,7 @@ img.img-auto,
   border: 0;
   border-bottom: 3px solid #78a300;
   background-color: transparent;
-  color: #146EAA;
+  color: #78a300;
 }
 
 /* ==========================================================================
@@ -2517,7 +2521,7 @@ img.img-auto,
 .tab-mobile.mx-tabcontainer .mx-tabcontainer-tabs {
   margin: 0 0 10px 0 !important;
   border-color: transparent;
-  background-color: #146EAA;
+  background-color: #78a300;
   text-align: center;
 }
 .tab-mobile.mx-tabcontainer .mx-tabcontainer-tabs li {
@@ -2802,7 +2806,7 @@ table.table-fixed {
   background-color: #eee !important;
 }
 .templategrid-hover.mx-templategrid .mx-templategrid-item.selected:hover {
-  background-color: #cadbe7 !important;
+  background-color: #dde6c6 !important;
 }
 
 /* ==========================================================================
@@ -2997,7 +3001,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .text-primary, .text-primary:hover {
-  color: #146EAA;
+  color: #78a300;
 }
 
 .text-info, .text-info:hover {
@@ -3510,7 +3514,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .formblock-header {
-  color: #146EAA;
+  color: #78a300;
   border-bottom: 1px solid #DDD;
   padding-bottom: 5px;
   margin-bottom: 15px;
@@ -3567,7 +3571,7 @@ h1, h2, h3, h4, h5, h6,
   border-radius: 0;
 }
 .multilevel-list .mx-listview-list .mx-listview-item.selected {
-  border-left: 4px solid #146EAA;
+  border-left: 4px solid #78a300;
   background-color: #eee !important;
 }
 
@@ -3614,7 +3618,7 @@ h1, h2, h3, h4, h5, h6,
   transition: all .2s;
 }
 .multilevel-grid .mx-datagrid-body-table .mx-datagrid-body tr.selected td, .multilevel-grid .mx-datagrid-body-table .mx-datagrid-body tr.selected:hover td {
-  border-left: 4px solid #146EAA;
+  border-left: 4px solid #78a300;
   background-color: #eee !important;
 }
 
@@ -3861,13 +3865,13 @@ h1, h2, h3, h4, h5, h6,
 
 .wizard-step-number-active {
   color: #FFF;
-  border-color: #146EAA;
-  background-color: #146EAA;
+  border-color: #78a300;
+  background-color: #78a300;
 }
 
 .wizard-step-number-visited {
-  color: #146EAA;
-  border-color: #146EAA;
+  color: #78a300;
+  border-color: #78a300;
   background-color: #FFF;
 }
 
@@ -3936,20 +3940,20 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .wizard-progress-step-active {
-  background-color: #d0e2ee;
+  background-color: #e4edcc;
 }
 .wizard-progress-step-active:after {
-  border-left-color: #d0e2ee;
+  border-left-color: #e4edcc;
 }
 .wizard-progress-step-active .wizard-progress-number {
-  background-color: #146EAA;
+  background-color: #78a300;
 }
 
 .wizard-progress-step-visited {
-  background-color: #d0e2ee;
+  background-color: #e4edcc;
 }
 .wizard-progress-step-visited:after {
-  border-left-color: #d0e2ee;
+  border-left-color: #e4edcc;
 }
 .wizard-progress-step-visited .wizard-progress-number {
   background-color: #78a300;
@@ -3971,7 +3975,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .wizard-progress-title {
-  color: #146EAA;
+  color: #78a300;
 }
 
 .wizard-step-content {

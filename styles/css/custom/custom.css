@@ -1010,10 +1010,10 @@ body .mx-header .mx-sidebartoggle {
 }
 
 .masterdetail-listview .mx-listview .mx-listview-item.selected {
-  color: #146EAA;
+  color: #78a300;
 }
 .masterdetail-listview .mx-listview .mx-listview-item.selected .mx-link {
-  color: #146EAA;
+  color: #78a300;
 }
 
 /* ==========================================================================
